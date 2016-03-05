@@ -1,0 +1,19 @@
+{
+  "name": "word-flagger",
+  "version": "0.0.1",
+  "description": "flag words in a database.",
+  "main": "server.coffee",
+  "scripts": {
+    "test": "mocha ./**/*.spec.coffee --bail --compilers coffee:coffee-script/register --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectHammurabi/word-flagger.git"
+  },
+  "author": "Seth Rhodes <seth@thinkpixbit.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProjectHammurabi/word-flagger/issues"
+  },
+  "homepage": "https://github.com/ProjectHammurabi/word-flagger#readme"
+}
