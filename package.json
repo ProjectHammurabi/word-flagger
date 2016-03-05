@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/ProjectHammurabi/word-flagger/issues"
   },
-  "homepage": "https://github.com/ProjectHammurabi/word-flagger#readme"
+  "homepage": "https://github.com/ProjectHammurabi/word-flagger#readme",
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "cors": "2.7.1",
+    "express": "4.13.4",
+    "mongoose": "4.4.6"
+  }
 }
