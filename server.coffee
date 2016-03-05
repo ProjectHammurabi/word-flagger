@@ -12,7 +12,7 @@ app = express()
 
 app
   .get '/', (req, res) ->
-    res.json a:1
+    res.json status:'up'
   .listen PORT, () ->
     console.log "Express server running on port #{PORT}"
     db.open MONGOLAB_URI
